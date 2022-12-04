@@ -13,5 +13,5 @@ if (imc < 18.5) {
 } else if (imc => 30 && imc < 40) {
     console.log(`Obeso`);
 } else {
-
+    console.log(`Obesidade Grave`);
 }
