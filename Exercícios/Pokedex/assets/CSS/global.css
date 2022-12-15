@@ -6,13 +6,22 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background: rgba(231,82,48,1);
 }
 
 .content {
     height: 100vh;
     width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #E0E8FA;
+    text-align: center;
 }
 
+.content h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #fff;
+}
